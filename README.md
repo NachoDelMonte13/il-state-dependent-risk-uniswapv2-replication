@@ -1,3 +1,4 @@
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.18792013.svg)](https://doi.org/10.5281/zenodo.18792013)
 # Replication Package: State-Dependent Risk in DeFi Markets (Uniswap v2 Impermanent Loss)
 
 This repository provides an analysis-ready replication package for the manuscript:

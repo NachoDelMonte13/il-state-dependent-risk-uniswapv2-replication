@@ -101,6 +101,12 @@ results/<POOL>/
 - pca_loadings_state_features.csv
 - pca_explained_variance.csv
 
+## Reference outputs (quick verification)
+
+The folder results_example/ contains reference outputs generated with the replication script for the benchmark pool(s). These files are provided to enable quick verification without executing the code.
+
+If you run the script, you should reproduce the same set of output files. Minor numerical differences may occur across platforms due to library versions and floating-point arithmetic.
+
 ## Citation
 
 If you use the data or code, please cite the manuscript and this repository (Zenodo DOI):

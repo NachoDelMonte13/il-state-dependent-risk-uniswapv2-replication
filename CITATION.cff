@@ -1,6 +1,6 @@
 cff-version: 1.2.0
 title: "Replication package for: State-Dependent Risk in DeFi Markets: Evidence from Impermanent Loss in Constant-Product AMMs"
-message: "If you use this repository, please cite the associated manuscript and the Zenodo record (DOI to be added after release)."
+message: "If you use this repository, please cite the associated manuscript and the Zenodo record (DOI: 10.5281/zenodo.18792013)."
 type: dataset
 authors:
   - family-names: "Del Monte"
@@ -16,4 +16,6 @@ authors:
     given-names: "Sebastian"
     orcid: "https://orcid.org/0000-0003-2761-9009"
 repository-code: "https://github.com/NachoDelMonte13/il-state-dependent-risk-uniswapv2-replication"
+doi: "10.5281/zenodo.18792013"
+url: "https://doi.org/10.5281/zenodo.18792013"
 license: "CC-BY-NC-4.0"

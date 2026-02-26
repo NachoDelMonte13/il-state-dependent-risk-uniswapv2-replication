@@ -111,7 +111,7 @@ If you run the script, you should reproduce the same set of output files. Minor 
 
 If you use the data or code, please cite the manuscript and this repository (Zenodo DOI):
 
-Zenodo DOI: to be added after the first Zenodo release
+Zenodo DOI: 10.5281/zenodo.18792013
 
 A machine-readable citation entry is provided in CITATION.cff.
 

@@ -1,0 +1,3 @@
+scenario,n_obs,shock_share,state_share,spearman_rank_corr_vs_global
+high_predicted_risk,17,0.18508009023574937,0.8149199097642505,0.8999999999999998
+endogenous_liquidity_stress_abs_z_dlog_tvl,17,0.164398250480239,0.8356017495197611,0.8999999999999998

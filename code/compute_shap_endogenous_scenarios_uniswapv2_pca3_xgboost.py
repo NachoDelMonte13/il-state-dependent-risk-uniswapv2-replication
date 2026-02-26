@@ -174,7 +174,7 @@ def run(pool: str, zenodo_dir: Path, out_dir: Path):
     global_mean.to_csv(out_pool / "shap_global_mean_abs.csv")
 
     global_blocks = aggregate_state_vs_shock_blocks(shap_values, list(CFG.state_features))
-    global_blocks.to_csv(out_pool / "shap_global_blocks_state_vs_shock.csv")
+    global_blocks.to_csv(out_pool / "shap_global_blocks_state_vs_shock.csv", header=False)
 
     # --- SCENARIOS ---
     summary_rows = []
@@ -196,7 +196,7 @@ def run(pool: str, zenodo_dir: Path, out_dir: Path):
         scen_mean.to_csv(out_pool / f"shap_{name}_mean_abs.csv")
 
         scen_blocks = aggregate_state_vs_shock_blocks(scen_sv, list(CFG.state_features))
-        scen_blocks.to_csv(out_pool / f"shap_{name}_blocks_state_vs_shock.csv")
+        scen_blocks.to_csv(out_pool / f"shap_{name}_blocks_state_vs_shock.csv", header=False)
 
         spearman_rank = spearman_rank_corr(global_mean, scen_mean)
 
